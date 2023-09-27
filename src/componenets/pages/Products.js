@@ -1,10 +1,8 @@
-import React from 'react'
-import '../../App.css'
+import React from 'react';
+import '../../App.css';
 
 const Products = () => {
-  return (
-    <h1 className='products'>Products</h1>
-  )
-}
+  return <h1 className='products'>Products</h1>;
+};
 
-export default Products
+export default Products;
