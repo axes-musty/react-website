@@ -43,22 +43,22 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/react-website/services' className='nav-links' onClick={closeMobileMenu}>
                         Services
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/prodcuts' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/react-website/products' className='nav-links' onClick={closeMobileMenu}>
                         Products
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link to='/react-website/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                         Sign Up
                     </Link>
                 </li>
             </ul>
-            { button && <Button buttonStyle='btn--outline'>SIGN UP</Button> }
+            { button && <Button buttonStyle='btn--outline' link='/react-website/sign-up'>SIGN UP</Button> }
         </div>
     </div>
     </>
