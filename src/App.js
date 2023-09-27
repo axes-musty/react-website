@@ -10,7 +10,7 @@ const App = () => {
      <Router>
       <Navbar />
       <Routes>
-        < Route path='/' exact element={<Home />}></Route>
+        < Route path='/react-website' exact element={<Home />}></Route>
       </Routes>
      </Router>
 
