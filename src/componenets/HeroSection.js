@@ -4,13 +4,13 @@ import '../App.css'
 import './HeroSection.css'
 import videoBg from '../assets/videos/video-2.mp4'
 
-function HeroSection () {
+const HeroSection = () => {
   return (
     <div className='hero-container'>
-        <video className='video' src={videoBg} playsInline autoPlay muted loop></video>
-        <h1>ADVENTURE AWAITS</h1>
-        <p>What are you waiting for?</p>
-        <div className="hero-btns">
+      <video className='video' src={videoBg} playsInline autoPlay muted loop></video>
+      <h1>ADVENTURE AWAITS</h1>
+      <p>What are you waiting for?</p>
+      <div className="hero-btns">
             <Button
                 className='btns'
                 buttonStyle='btn--outline'
