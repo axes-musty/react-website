@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './componenets/pages/Home'
 import './App.css'
 
-function App () {
+const App = () => {
   return (
     <>
      <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<Home />}></Route>
+        < Route path='/' exact element={<Home />}></Route>
       </Routes>
      </Router>
 
