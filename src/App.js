@@ -1,9 +1,21 @@
 import React from 'react'
+import Navbar from './componenets/Navbar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './componenets/pages/Home'
 import './App.css'
 
 function App () {
   return (
-    <h1>elo</h1>
+    <>
+     <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<Home />}></Route>
+      </Routes>
+     </Router>
+
+    </>
+
   )
 }
 
